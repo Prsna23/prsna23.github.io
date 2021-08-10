@@ -1,4 +1,5 @@
-import { defineConfig } from "vite";
-export default defineConfig ({
-  base: './',
-})
+module.exports = {
+    build: {
+      outDir: './build'
+    }
+  }
